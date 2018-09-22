@@ -41,7 +41,7 @@
 }
 
 .cron-editor-main .cron-editor-container .day-order-in-month {
-  width: 95px;
+  width: 109px;
 }
 
 .cron-editor-main .cron-editor-container .week-days {
@@ -58,4 +58,15 @@
 
 .nav-tabs li a {
   cursor: pointer;
+}
+
+.card-header {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
 }

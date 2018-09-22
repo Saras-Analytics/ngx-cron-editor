@@ -1,2 +1,2 @@
-export * from './components/cron-editor/cron-editor.module';
-export * from './components/cron-editor/CronOptions';
+export * from './src/app/cron-editor/cron-editor.module';
+export * from './src/app/cron-editor/CronOptions';
