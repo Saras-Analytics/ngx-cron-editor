@@ -63,7 +63,7 @@
                 <option *ngFor="let minute of selectOptions.minutes" [ngValue]="minute">
                   {{minute}}
                 </option>
-              </select> minutos(s)
+              </select> minuto(s)
               <span *ngIf="!options.hideSeconds && isCronFlavorQuartz">no segundo</span>
               <select class="seconds" *ngIf="!options.hideSeconds && isCronFlavorQuartz" [disabled]="disabled || activeTab !== 'minutes'"
                 (change)="regenerateCron()" [(ngModel)]="state.minutes.seconds" [ngClass]="options.formSelectClass">
