@@ -1,25 +1,9 @@
 {
-  "name": "ngx-cron-editor-br",
-  "description": "A cron expression generator for Angular 6+ PT-BR",
-  "author": "Thiago Machado Rezende",
-  "contributors": [],
-  "version": "0.5.1",
+  "name": "ngx-cron-editor",
+  "version": "0.1.0",
   "scripts": {
     "packagr": "ng-packagr -p ng-package.json"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thiagomre/ngx-cron-editor.git"
-  },
-  "homepage": "https://github.com/thiagomre/ngx-cron-editor.git",
-  "keywords": [
-    "angular",
-    "cron",
-    "cron-expression",
-    "angular-cli",
-    "quartz"
-  ],
   "dependencies": {
     "tslib": "^1.9.0"
   },
